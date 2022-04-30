@@ -957,7 +957,7 @@ uicontrol('style','push',...
       prompt = {'Enter linear blending method alpha value (>0):'};
       dlg_title = 'Enter Alpha Value';
       num_lines = 1;
-      def = {num2str(val)};
+      def = {num2str(1)};
       answer = inputdlg(prompt,dlg_title,num_lines,def);
       temp = str2double(answer);
       if isempty(temp)
